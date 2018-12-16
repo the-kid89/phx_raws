@@ -9,8 +9,8 @@ defmodule PhxRaws.Mixfile do
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
       deps: [
-        {:plug, "~> 1.4.3"},
-        {:phoenix, "~> 1.3.0"}
+        {:plug, "~> 1.6.2"},
+        {:phoenix, "~> 1.3.2"}
       ]
     ]
   end
